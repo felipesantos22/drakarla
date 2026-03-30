@@ -16,7 +16,7 @@ export default function Header() {
           <li>
             <a
               href="/"
-              className="block py-2 text-white hover:text-amber-500"
+              className="block py-2 text-gray-900"
             >
               HOME
             </a>
@@ -24,7 +24,7 @@ export default function Header() {
           <li>
             <a
               href="/pacotes"
-              className="block py-2 text-white hover:text-amber-500"
+              className="block py-2 text-gray-900"
             >
               PROCEDIMENTOS
             </a>
@@ -32,15 +32,15 @@ export default function Header() {
           <li>
             <a
               href="/seguro"
-              className="block py-2 text-white hover:text-amber-500"
+              className="block py-2 text-gray-900"
             >
-              ABOUT
+              QUEM SOU
             </a>
           </li>
           <li>
             <a
               href="/docs"
-              className="block py-2 text-white hover:text-amber-500"
+              className="block py-2 text-gray-900"
             >
               CONTATO
             </a>
@@ -48,7 +48,7 @@ export default function Header() {
         </ul>
       </nav>
       <div>
-        <button className="text-white px-4 py-2 rounded-full shadow-2xl border-2">
+        <button className="text-gray-900 px-4 py-2 rounded-full shadow-2xl border-2">
           RESERVA
         </button>
       </div>
